@@ -97,11 +97,7 @@ PC Client → Switch → Router → DNS Server → Web Server
 2. Verify IP addressing and device connections  
 3. Ensure DNS records exist for all web servers  
 4. Test DNS resolution from a client PC: PC> nslookup webserver.local
-
-```bash
 5. Open the web browser on the PC and test HTTP access: http://ramo.com
-
-```yaml
 6. Confirm that the correct webpage loads successfully  
 
 ---

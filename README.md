@@ -65,7 +65,7 @@ This project emphasizes **network security** at every level of the design.
 ### **Clients (PCs)**
 - Receive IP configuration from DHCP (if implemented)  
 - Use the DNS server’s IP for name resolution  
-- Access web services using domain names (e.g., `http://webserver.local`)  
+- Access web services using domain names (e.g., `http://ramo.com`)  
 
 ---
 
@@ -75,7 +75,7 @@ This project emphasizes **network security** at every level of the design.
 PC Client → Switch → Router → DNS Server → Web Server
 
 
-- The **client** queries the **DNS server** to resolve a domain (e.g., `webserver.local`)
+- The **client** queries the **DNS server** to resolve a domain (e.g., `fds.ramo.com`)
 - The **DNS server** replies with the **web server’s IP**
 - The client then sends an **HTTP request** to the web server
 - The **web server** responds with the requested webpage or data
